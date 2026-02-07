@@ -1,4 +1,8 @@
-#mainTitle {
+        body{
+            background-color: #677d9c;
+        }
+        
+        #mainTitle {
             text-align: center;
             font-family: "Times New Roman", serif;
             font-size: max(20px, 40px);
@@ -15,16 +19,32 @@
             text-align: center;
         }
 
+        .hr1 {
+            width: 100%;
+            margin: 10px 0px;
+            border: 1px solid #000;
+        }
+
         h2 {
             font-size: max(15px, 25px);
             text-align: center;
             font-family: "Times New Roman", serif;
+            margin-bottom: 8px;
         }
-        
+
         h3 {
             font-size: max(15px, 25px);
             text-align: center;
             font-family: "Times New Roman", serif;
+            margin-bottom: 8px;
+        }
+
+        h4 {
+            font-size: max(15px, 25px);
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            margin-bottom: auto 0;
+            padding: 24px 16px;
         }
 
         #indexP1 {
@@ -39,6 +59,12 @@
             font-size: max(10px, 20px);
         }
 
+        #indexP3 {
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            font-size: max(10px, 15px);
+        }
+
         .firstContent {
             align-items: center;
             gap: 20px;
@@ -51,6 +77,14 @@
             margin: 0 auto;
             max-width: 250px;
             height: auto;
+            border-radius: 16px;
+            box-shadow: 0 6px 18px rgba(0,0,0,.12);
         }
+
+        .footer{
+            text-align: center;
+            padding: 24px 16px;
+        }
+
 
         
