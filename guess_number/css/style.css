@@ -1,0 +1,14 @@
+body {
+    background-image: url("../img/confetti.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(83, 74, 74, 0.85); /* solid readable panel */
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
