@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+    <script src="js/scrpit.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Guess the Number!</h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+
+        <div id="stats" aria-label="Game stats">
+            <div class="stat">Attempts left: <span id="attemptsLeft">7</span></div>
+            <div class="stat">Wins: <span id="winsCount">0</span></div>
+            <div class="stat">Losses: <span id="lossesCount">0</span></div>
+        </div>
+    </header>
+
+    <br>
+
+    <div id="main">
+        Enter a guess:
+        <input type="text" id="playerGuess" size="5"> <!--Creates text box with a size of 5-->
+        <button id="guessBtn"> Guess </button> <br> <!--Creates button-->
+        <button id="resetBtn"> Reset </button> <!--Creates button-->
+        <div id="feedback"></div>
+        <div> Previous Guesses:
+            <span id="guesses"></span>
+        </div>
+    </div>
+
+    <h3>Created by Carlos Cupa</h3>
+
+</body>
+
+
+
+</html>
