@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel ="stylesheet" href="styles.css" />
+
+</head>
+<body>
+    <h1>Hangman</h1>
+    <p id="statusText"> Guess a letter!</p>
+
+    <img id="hangmanPic" src="images/hangman0.png" alt="hangman picture" width="200">
+
+    <h2 id="wordBox">_ _ _ _</h2>
+
+    <input id="userLetter" maxlength="1" placeholder="">
+    <button id="guessButton"> Guess </button> <br>
+
+    <p id="lettersGuessed">Letters Guessed: </p>
+
+    <button id="newButton">New Game</button>
+
+     <script src="js/script.js" defer></script>
+</body>
+</html>
